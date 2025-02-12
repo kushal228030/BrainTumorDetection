@@ -9,7 +9,7 @@ import io
 app = Flask(__name__)
 
 # Load the trained model
-MODEL_PATH = "C:/Users/User/Desktop/Deployment/Brain Tumor Detection/brain_tumor.h5"  # Update the path if needed
+MODEL_PATH = "brain_tumor.h5"  # Update the path if needed
 model = keras.models.load_model(MODEL_PATH)
 
 # Define class names
